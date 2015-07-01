@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/eventoBackground"
+            android:src="@drawable/backgroundcinema"
+            android:layout_gravity="bottom|right"
+            android:adjustViewBounds="true"
+            android:alpha="0.7" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margem_icone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Título do evento"
+                android:id="@+id/eventoTitulo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/margem_icone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:id="@+id/eventoImagem"
+                android:src="@drawable/g6"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margem_icone">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compartilhar"
+                    android:id="@+id/eventoCompartilhar"
+                    android:layout_gravity="left" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notifique-me"
+                    android:id="@+id/eventoNotificar"
+                    android:layout_gravity="right" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data\nHorário\nLocal\nDescrição"
+                android:id="@+id/eventoInfo"
+                android:maxLines = "128"
+                android:scrollbars = "vertical"
+                android:layout_margin="@dimen/margem_icone"
+                android:background="#80ffffff" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

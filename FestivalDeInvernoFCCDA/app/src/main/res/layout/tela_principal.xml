@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/background"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/festival"
+            android:scaleType="fitCenter"
+            android:alpha="1.0"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:maxWidth="100dp"
+            android:maxHeight="150dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="100dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingTop="90dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="15dp"
+            android:gravity="center_vertical|center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:src="@drawable/agendacompleta"
+                    android:id="@+id/btn_agenda"
+                    android:layout_marginEnd="2dp"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/hoje"
+                    android:id="@+id/btn_hoje"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/galeria"
+                    android:id="@+id/btn_galeria"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/cinema"
+                    android:id="@+id/btn_cinema"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:nestedScrollingEnabled="false"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/literatura"
+                    android:id="@+id/btn_literatura"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/cultura"
+                    android:id="@+id/btn_extensao"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/oficinas"
+                    android:id="@+id/btn_oficina"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/musica"
+                    android:id="@+id/btn_musica"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tamanho_icone"
+                    android:layout_weight="1"
+                    android:src="@drawable/sobre"
+                    android:id="@+id/btn_sobre"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:maxHeight="@dimen/tamanho_icone"
+                    android:maxWidth="@dimen/tamanho_icone"
+                    android:minHeight="@dimen/tamanho_icone_min"
+                    android:minWidth="@dimen/tamanho_icone_min"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="@dimen/margem_icone" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

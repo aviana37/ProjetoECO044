@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgaleria">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullImageView"
+        android:src="@drawable/g1"
+        android:contentDescription="image"
+        android:adjustViewBounds="false"
+        android:background="#00ffffff"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:baselineAlignBottom="false"
+        android:clickable="false" />
+</FrameLayout>

@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingEnd="5dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listaDataDia"
+            android:textSize="14dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:text="06"
+            android:textColor="@color/corTituloMenu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:text="___"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:paddingStart="5dp"
+            android:textColor="@color/corTituloMenu"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listaDataMes"
+            android:textSize="14dp"
+            android:paddingStart="5dp"
+            android:text="04"
+            android:textColor="@color/corTituloMenu"
+            android:clickable="false"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/listaEventoTipo"
+            android:src="@drawable/iconeoficinas"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:id="@+id/listaEventoTitulo"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="@color/corTituloMenu"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local"
+                android:id="@+id/listaEventoDescricao"
+                android:textSize="12dp"
+                android:singleLine="true"
+                android:textColor="@color/corDescricaoMenu"
+                android:clickable="false"
+                android:focusable="false"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/listaEventoFaixaEtaria"
+            android:src="@drawable/livre"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:focusable="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

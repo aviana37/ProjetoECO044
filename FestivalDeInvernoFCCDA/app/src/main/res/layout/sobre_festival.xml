@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/inverno"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/festivalsplash"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sobre"
+            android:id="@+id/sobreTextView"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="#a0ffffff"
+            android:scrollbars="vertical"
+            android:textAlignment="center"
+            android:autoText="false" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

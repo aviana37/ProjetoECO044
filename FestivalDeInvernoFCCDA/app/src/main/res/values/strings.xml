@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Festival de Inverno</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="web">As comemorações dos 40 anos do Festival de Inverno começam em grande estilo com a volta de Jorge Ben Jor a Itabira, depois de 20 anos.
+                Cantando os sucessos de sua carreira, Ben Jor mostra por que ainda hoje é um dos principais ícones da música nacional.
+    "Nas palavras de Caetano Veloso, no livro “Verdade Tropical”, “com sua agressividade alegre" e sua musicalidade, deixando à mostra traços crus de samba de morro e blues numa composição de exterioridades nordestinas, era a encarnação dos nossos sonhos.</string>
+    <string name="sobre">\tO festival de Inverno de Itabira ocorre desde 1974, sempre no mês de junho ou julho.\n\tÉ organizado pela Fundação Cultural Carlos Drummond de Andrade, um dos órgãos responsáveis pelo fomento cultural itabirano, oferecendo em algumas edições cerca de 100 atrações em 15 dias, sendo a maioria gratuita e com nomes de destaque regional em diversos segmentos artísticos, como artes cênicas, artes plásticas, teatro, música e por vezes cinema.\n\tDurante o período em que o festival é realizado ocorrem lançamentos de livros, espetáculos de teatro de rua e de palco, encontro de congados, apresentação de orquestras e oficinas, além de outras atrações em diversos pontos da cidade.</string>
+    <string name="movie">O cineasta Sylvio Back vem a Itabira para promover o lançamento nacional e fazer uma sessão comentada de seu documentário “O Universo Graciliano”. Fruto de uma vasta pesquisa literária e de campo, o filme ouve contemporâneos, resgata locais e arquivos (que pareciam perdidos) em Pernambuco, Alagoas e no Rio de Janeiro e dá visibilidade a rastros, sombras e escombros memoriais em torno de Graciliano Ramos (1892-1953). É um dos primeiros filmes brasileiros sobre a vida, a obra e a morte do genial escritor alagoano. </string>
+</resources>
